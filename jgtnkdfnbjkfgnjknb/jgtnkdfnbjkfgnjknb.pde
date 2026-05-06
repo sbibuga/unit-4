@@ -12,6 +12,18 @@ for (int y = 75; y <= 3000; y += 150) {
     circle(x + offset + 150,y,150);
     fill(220,230,235);
     circle(x + offset + 300,y,150);
+    stroke(255);
+    strokeWeight(4);
+    noFill();
+    circle(x + offset,y,30);
+    circle(x + offset + 150,y,30);
+    circle(x + offset + 300,y,30);
+    circle(x + offset,y,70);
+    circle(x + offset + 150,y,70);
+    circle(x + offset + 300,y,70);
+    circle(x + offset,y,110);
+    circle(x + offset + 150,y,110);
+    circle(x + offset + 300,y,110);
   }
   offset += 150;
 }
